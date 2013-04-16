@@ -1,6 +1,6 @@
 ---
 title: The Social Coder
-template: article.jade
+template: default.jade
 menu:
   title: Home
   order: 0

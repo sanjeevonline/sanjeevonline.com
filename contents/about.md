@@ -1,6 +1,6 @@
 ---
 title: About
-template: article.jade
+template: default.jade
 menu: 
   title: About
   order: 2

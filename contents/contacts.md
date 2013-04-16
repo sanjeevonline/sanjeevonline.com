@@ -1,5 +1,5 @@
 title: Contacts
-template: article.jade
+template: default.jade
 menu:
   title: Contacts
   order: 1
