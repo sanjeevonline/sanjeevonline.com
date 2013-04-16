@@ -3,7 +3,7 @@
 
 ## to start
 
-	$ git clone https://github.com/sanjeevonline/sanjeevonline.com
+	$ git clone git@github.com:sanjeevonline/sanjeevonline.com.git
 	$ npm install
 	$ npm start
 
