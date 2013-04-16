@@ -1,0 +1,8 @@
+{
+    "template": "aboutme.jade",
+    "title": "About me",
+    "menu": {
+        "title": "About me",
+        "order": "5"
+    }
+}
