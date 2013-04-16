@@ -1,7 +1,7 @@
 {
-  "name": "Sanjeev Online",
+  "name": "wintersmith-bootstrap",
   "version": "0.0.1",
-  "description": "Time Pass",
+  "description": "Wintersmith Bootstrap Template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "wintersmith preview",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanjeevonline/sanjeevonline.com"
+    "url": "git@github.com:sanjeevonline/sanjeevonline.com.git"
   },
   "dependencies": {
     "wintersmith":"1.2.0"
@@ -17,7 +17,7 @@
   "engines": {
     "node": "0.8.x"
   },
-  "author": "Sanjeev Kumar",
+  "author": "DarkRuby.co.uk",
   "license": "BSD",
   "readmeFilename": "README.md"
 }
