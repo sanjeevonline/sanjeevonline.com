@@ -1,8 +1,9 @@
+---
 template: archive.jade
 menu:
   title: Archive
   order: 5
-
+---
 ## The archives
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

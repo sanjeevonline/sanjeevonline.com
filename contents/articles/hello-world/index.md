@@ -1,3 +1,4 @@
+---
 title: Hello World
 author: sanjeev
 date: 2012-01-31 15:00
@@ -5,6 +6,7 @@ template: article.jade
 menu:
   title: Hello World
   order: 6
+---
 
 Welcome to your new wintersmith site mortal.
 

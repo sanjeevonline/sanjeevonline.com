@@ -1,3 +1,4 @@
+---
 title: The tale of the bamboo-cutter
 author: Princess Kaguya
 date: 2011-05-01 12:00
@@ -5,7 +6,7 @@ template: article.jade
 menu:
   title: The tale of the bamboo-cutter
   order: 6
-
+---
 
 ![image](Taketori_Monogatari.jpg)
 

@@ -1,3 +1,4 @@
+---
 title: A red herring
 author: sanjeev
 date: 2013-04-15 12:20
@@ -5,6 +6,7 @@ template: article.jade
 menu:
   title: A red herring
   order: 6
+---
 
 A long time ago, when the world was young
 Someone put some food on their tong

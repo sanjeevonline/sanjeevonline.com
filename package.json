@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sanjeevonline/sanjeevonline.com.git"
+    "url": "https://github.com/venil7/wintersmith-bootstrap"
   },
   "dependencies": {
     "wintersmith":"1.2.0"

@@ -1,3 +1,4 @@
+---
 title: Code and stuff!
 author: The Wintersmith
 date: 2011-10-01 15:00
@@ -5,6 +6,7 @@ template: article.jade
 menu:
   title: Another Test
   order: 6
+---
 
 Syntax highlighting with highlight.js
 
