@@ -1,0 +1,23 @@
+{
+  "name": "Sanjeev Online",
+  "version": "0.0.1",
+  "description": "Time Pass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wintersmith preview",
+    "build": "wintersmith build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjeevonline/sanjeevonline.com"
+  },
+  "dependencies": {
+    "wintersmith":"1.2.0"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "author": "Sanjeev Kumar",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}

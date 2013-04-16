@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "blog",
+    "owner": "Sanjeev Kumar",
+    "description": "The Social Coder",
+    "index_articles": 3,
+    "title": "The Social Coder",
+    "author": "sanjeev"
+  }
+}
