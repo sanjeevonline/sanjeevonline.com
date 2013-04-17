@@ -1,0 +1,13 @@
+extends layout
+
+block prepend title
+  | #{ page.title } -
+
+block header
+  //h2= page.title
+  .hero-unit
+      img(id='add-razaoSocial', class='input-img', src='/assets/images/TGF.JPG')
+
+block content
+  article.post
+    section.content!= page.html

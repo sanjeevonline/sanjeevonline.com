@@ -3,14 +3,20 @@ extends layout
 block prepend title
   | #{ page.title } -
 
-block header
-  include author
-  a.back(href='/blog.html') << back to index
-  h1= page.title
-  p
-    | written by:
-    mixin author(page.metadata.author)
+//block header
+  //include author
+  //a.back(href='/blog.html') << back to index
+  //h1= page.title
+  //p
+  //  | written by:
+  //  mixin author(page.metadata.author)
 
 block content
-  article.post
-    section.content!= page.html
+  article.post.shadow
+      include author
+      a.back(href='/archive.html') #{ page.date.toString().substring(4, 7) } #{ page.date.toString().substring(8, 10) }
+      h1= page.title
+      p
+          | written by:
+          mixin author(page.metadata.author)
+      section.content!= page.html
