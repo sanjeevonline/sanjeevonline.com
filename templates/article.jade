@@ -8,15 +8,17 @@ block prepend title
   //a.back(href='/blog.html') << back to index
   //h1= page.title
   //p
-  //  | written by:
-  //  mixin author(page.metadata.author)
+   // | written by:
+    //mixin author(page.metadata.author)
 
 block content
+  - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   article.post.shadow
-      include author
-      a.back(href='/archive.html') #{ page.date.toString().substring(4, 7) } #{ page.date.toString().substring(8, 10) }
       h1= page.title
+      a.back(href='/archive.html') #{ map[page.date.getMonth()] } #{ page.date.toString().substring(8, 10) }
+      include author
       p
-          | written by:
-          mixin author(page.metadata.author)
+         | By &nbsp;
+         mixin author(page.metadata.author)
+      br
       section.content!= page.html

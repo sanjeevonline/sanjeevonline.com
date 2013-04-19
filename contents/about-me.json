@@ -1,5 +1,5 @@
 {
-    "template": "aboutme.jade",
+    "template": "about-me.jade",
     "title": "About me",
     "menu": {
         "title": "About me",

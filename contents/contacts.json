@@ -1,8 +1,0 @@
-{
-    "title": "Contacts",
-    "template": "contacts.jade",
-    "menu": {
-      "title": "Contacts",
-      "order": 1
-      }
-}

@@ -10,12 +10,15 @@ block content
   -   // sort them by date
   -   return -item.date
   - }).first(5).value() // and finally take the first 5
+  - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   each article in articles
     article.post.shadow
       header
         h2
           a(href=article.url)= article.title
+        a.back(href='/archive.html') #{ map[article.date.getMonth()] } #{ article.date.toString().substring(8, 10) }
         p
+          | By &nbsp;
           mixin author(article.metadata.author)
       section.content!= article.intro
         if article.hasMore
