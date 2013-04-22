@@ -3,7 +3,7 @@ template: blog.jade
 title: Blog
 menu: 
    title: Blog
-   order: 3
+   order: 1
 ---
 # Blog
 

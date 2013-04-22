@@ -3,6 +3,7 @@ title: A red herring
 author: sanjeev
 date: 2011-12-26 12:20
 template: article.jade
+tags: all
 menu:
   title: A red herring
   order: 6

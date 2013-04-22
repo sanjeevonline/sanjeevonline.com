@@ -1,0 +1,12 @@
+{
+    "tags": "Java, J2ee",
+    "title": "java",
+    "cssClass": "java",
+    "description": "java",
+    "template": "tag.jade",
+    "menu":
+        {
+          "title": "Java",
+          "order": 6
+        }
+}

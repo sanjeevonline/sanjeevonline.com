@@ -1,0 +1,10 @@
+{
+    "tags": "C, C++",
+    "title": "c",
+    "template": "tag.jade",
+    "menu":
+    {
+        "title": "C",
+        "order": 6
+    }
+}

@@ -3,6 +3,7 @@ title: The tale of the bamboo-cutter
 author: Princess Kaguya
 date: 2011-05-01 12:00
 template: article.jade
+tags: all,java
 menu:
   title: The tale of the bamboo-cutter
   order: 6
