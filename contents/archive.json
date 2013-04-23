@@ -1,0 +1,7 @@
+{
+    "template": "archive.jade",
+    "menu": {
+        "title": "Archive",
+        "order": 3
+    }
+}

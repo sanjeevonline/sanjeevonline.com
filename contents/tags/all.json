@@ -1,7 +1,7 @@
 {
     "tags": "All",
     "title": "all",
-    "template": "tag.jade",
+    "template": "tags.jade",
     "menu":
     {
         "title": "All",

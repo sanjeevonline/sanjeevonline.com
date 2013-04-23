@@ -1,7 +1,7 @@
 {
     "tags": "C, C++",
     "title": "c",
-    "template": "tag.jade",
+    "template": "tags.jade",
     "menu":
     {
         "title": "C",

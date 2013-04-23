@@ -25,3 +25,7 @@ body {
 .navbar .brand {
     font-size: 25px;
 }
+
+.well [class^="span"] + [class^="span"] {
+    border-left: 1px solid #e3e3e3;
+}

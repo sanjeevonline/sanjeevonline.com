@@ -42,10 +42,11 @@ block content
   - var tagsarray = compressArray(tags)
 
   div.tags
-     ul
         each tag in tagsarray
-           li
              a.back(href='/tags/' + tag.value + '.html') #{tag.value}(#{tag.count})
+             &nbsp|&nbsp
+        hr
+        vr
   include author
   //- underscore helps us filter and sort our articles
   - var articles = _.chain(contents.articles._.directories).map(function(item) {
