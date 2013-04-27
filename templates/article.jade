@@ -4,21 +4,21 @@ block prepend title
   | #{ page.title } -
 
 // block header
-  // a.back(href='/blog.html') << back to index
+  // a.back(href=locals.baseUrl + '/blog.html') << back to index
   // br
   // br
 block content
   - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   article.post.shadow
       h1= page.title
-      a.back(href='/archive.html') #{ map[page.date.getMonth()] } #{ page.date.toString().substring(8, 10) }
+      a.back(href=locals.baseUrl + '/archive.html') #{ map[page.date.getMonth()] } #{ page.date.toString().substring(8, 10) }
       include author
       p
          | By &nbsp;
          mixin author(page.metadata.author)
       br
       section.content!= page.html
-      a.back(href='/blog.html') << back to index
+      a.back(href=locals.baseUrl + '/blog.html') << back to index
 
       div#disqus_thread
 script(type='text/javascript')

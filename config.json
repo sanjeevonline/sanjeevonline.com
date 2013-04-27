@@ -1,6 +1,7 @@
 {
   "locals": {
-    "url": "./",
+    "url": "/",
+    "baseUrl": "/sanjeevonline",
     "name": "blog",
     "owner": "Sanjeev Kumar",
     "description": "The Social Coder",

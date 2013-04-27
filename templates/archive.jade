@@ -22,5 +22,5 @@ block content
               strong= month
               each article in articles
                 br
-                a(href=article.url)= article.title
+                a(href=locals.baseUrl + article.url)= article.title
 

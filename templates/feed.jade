@@ -7,18 +7,18 @@ rss(version='2.0',
   channel    
     - var articles = _.chain(contents.articles._.directories).map(function(item){ return item.index }).sortBy(function(item) { return -item.date }).value();
     title= locals.name
-    atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
-    link= locals.url
+    atom:link(href=locals.baseUrl + '/feed.xml', rel='self', type='application/rss+xml')
+    link= locals.baseUrl
     description= locals.description
     pubDate= articles[0].rfc822date
     generator The mighty Wintersmith
     language en
     for article in articles
-      - var permalink = locals.url + article.url
+      - var permalink = locals.baseUrl + article.url
       item
         title= article.title
         link= permalink
         pubDate= article.rfc822date
         guid(isPermaLink='true')= permalink
         author= article.author
-        description= article.getHtml(locals.url) // passing locals.url resolves all relative urls to absolute
+        description= article.getHtml(locals.baseUrl) // passing locals.url resolves all relative urls to absolute

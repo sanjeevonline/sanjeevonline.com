@@ -43,7 +43,7 @@ block content
 
   div.tags
         each tag in tagsarray
-             a.back(href='/tags/' + tag.value + '.html') #{tag.value}(#{tag.count})
+             a.back(href= locals.baseUrl + '/tags/' + tag.value + '.html') #{tag.value}(#{tag.count})
              &nbsp|&nbsp
         hr
         vr
@@ -61,14 +61,14 @@ block content
     article.post.shadow
       header
         h2
-          a(href=article.url)= article.title
-        a.back(href='/archive.html') #{ map[article.date.getMonth()] } #{ article.date.toString().substring(8, 10) }
+          a(href=locals.baseUrl + article.url)= article.title
+        a.back(href=locals.baseUrl + '/archive.html') #{ map[article.date.getMonth()] } #{ article.date.toString().substring(8, 10) }
         p
           | By &nbsp;
           mixin author(article.metadata.author)
       section.content!= article.intro
         if article.hasMore
             p.read-more
-                a(href=article.url) read more
+                a(href=locals.baseUrl + article.url) read more
   br
-  a(href='archive.html')#archive Visit the archives!
+  a(href=locals.baseUrl + 'archive.html')#archive Visit the archives!
