@@ -1,8 +1,0 @@
-{
-    "title": "Tags",
-    "template": "tags.jade",
-    "menu": {
-        "title": "Tags",
-        "order": 2
-    }
-}
