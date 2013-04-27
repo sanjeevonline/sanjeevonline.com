@@ -1,0 +1,50 @@
+<!DOCTYPE html><html><head><title>Hello World - The Social Coder</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/sanjeevonline/assets/css/github.css"><link rel="stylesheet" href="/sanjeevonline/assets/bootstrap/css/bootstrap.css"><link rel="stylesheet" href="/sanjeevonline/assets/bootstrap/css/bootstrap-responsive.css"><link rel="stylesheet" href="/sanjeevonline/assets/css/prettify.css"><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Serif"><link rel="stylesheet" href="/sanjeevonline/assets/css/app.css"><style type="text/css">body { padding-top: 60px; padding-bottom: 40px; }
+@media (max-width: 980px) {
+  body {
+    padding-top: 0px;
+  }
+}</style></head><body><div class="container"><div class="navbar navbar-fixed-top"><div class="navbar-inner"><div class="container"><a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a href="/sanjeevonline" class="brand">The Social Coder</a><div class="nav-collapse collapse"><!-- .nav, .navbar-search, .navbar-form, etc --><ul class="nav"><li><a href="/sanjeevonline/">Home</a></li><li><a href="/sanjeevonline/blog.html">Blog</a></li><li><a href="/sanjeevonline/tags.html">Tags</a></li><li><a href="/sanjeevonline/archive.html">Archive</a></li><li><a href="/sanjeevonline/about-me.html">About me</a></li></ul></div></div></div></div><article class="post shadow"><h1>Hello World</h1><a href="/sanjeevonline/archive.html" class="back">January 31</a><p>By &nbsp;<span class="author"><a href="mailto:sanjeevonline@gmail.com">Sanjeev Kumar</a></span></p><br><section class="content"><p>Welcome to your new wintersmith site mortal.</p>
+<p>This is an example of how you can set up a blog with RSS, and an archive using Wintersmith.
+If you want a bare bones example check out the site in <code>examples/basic/</code> in the repository root or
+use <code>wintersmith new &lt;path&gt; --template basic</code> when creating a new site.</p>
+<p>Site structure:</p>
+<pre><code>├── config<span class="preprocessor">.json</span>                          site configuration <span class="keyword">and</span> metadata
+├── contents
+│   ├── archive<span class="preprocessor">.md</span>
+│   ├── articles                         each article is a subfolder of articles
+│   │   ├── another-test
+│   │   │   └── index<span class="preprocessor">.md</span>
+│   │   ├── bamboo-cutter
+│   │   │   ├── Taketori_Monogatari<span class="preprocessor">.jpg</span>
+│   │   │   └── index<span class="preprocessor">.md</span>
+│   │   ├── hello-world
+│   │   │   └── index<span class="preprocessor">.md</span>
+│   │   └── red-herring
+│   │       ├── banana<span class="preprocessor">.jpg</span>
+│   │       └── index<span class="preprocessor">.md</span>
+│   ├── authors                          if an author is <span class="keyword">set</span> <span class="keyword">in</span> an articles metadata it
+│   │   ├── sanjeev<span class="preprocessor">.json</span>                   will be read from here
+│   │   └── another-author<span class="preprocessor">.json</span>
+│   ├── css
+│   │   ├── github<span class="preprocessor">.css</span>
+│   │   └── main<span class="preprocessor">.css</span>
+│   ├── feed<span class="preprocessor">.json</span>                        json page that renders the rss feed to feed<span class="preprocessor">.xml</span>
+│   ├── index<span class="preprocessor">.json</span>
+└── templates
+    ├── archive<span class="preprocessor">.jade</span>
+    ├── article<span class="preprocessor">.jade</span>
+    ├── author<span class="preprocessor">.jade</span>
+    ├── feed<span class="preprocessor">.jade</span>
+    ├── index<span class="preprocessor">.jade</span>
+    └── layout<span class="preprocessor">.jade</span></code></pre>
+<p>Articles are sorted by date and the 3 most recent are shown (configurable in <code>config.json</code>). All other articles
+are avalible via their permalink or the archive page.</p>
+<p>Example article/post:</p>
+<pre><code class="lang-markdown">title: My new shiny blog
+author: johndoe
+date: 2012-12-12 12:12
+
+<span class="header"># Hello!</span>
+
+I'm an article. Bla bla bla so interesting.</code></pre>
+</section><a href="/sanjeevonline/blog.html" class="back"><< back to index</a><div id="disqus_thread"></div></article><hr /><footer><p>put together by: <a href="/">sanjeev</a></p></footer></div><!--le javascript--><!--script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js')--><!--script(src= '#{locals.baseUrl}' + '/assets/javascript/jquery-twitter-plugin.js')--><script src="/sanjeevonline/assets/javascript/jquery.min.js"></script><script src="/sanjeevonline/assets/javascript/app.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-transition.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-alert.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-modal.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-dropdown.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-scrollspy.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-tab.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-tooltip.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-popover.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-button.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-collapse.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-carousel.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-typeahead.js"></script></body></html>

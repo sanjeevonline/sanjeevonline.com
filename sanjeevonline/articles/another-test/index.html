@@ -1,0 +1,76 @@
+<!DOCTYPE html><html><head><title>Code and stuff! - The Social Coder</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/sanjeevonline/assets/css/github.css"><link rel="stylesheet" href="/sanjeevonline/assets/bootstrap/css/bootstrap.css"><link rel="stylesheet" href="/sanjeevonline/assets/bootstrap/css/bootstrap-responsive.css"><link rel="stylesheet" href="/sanjeevonline/assets/css/prettify.css"><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Serif"><link rel="stylesheet" href="/sanjeevonline/assets/css/app.css"><style type="text/css">body { padding-top: 60px; padding-bottom: 40px; }
+@media (max-width: 980px) {
+  body {
+    padding-top: 0px;
+  }
+}</style></head><body><div class="container"><div class="navbar navbar-fixed-top"><div class="navbar-inner"><div class="container"><a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a href="/sanjeevonline" class="brand">The Social Coder</a><div class="nav-collapse collapse"><!-- .nav, .navbar-search, .navbar-form, etc --><ul class="nav"><li><a href="/sanjeevonline/">Home</a></li><li><a href="/sanjeevonline/blog.html">Blog</a></li><li><a href="/sanjeevonline/tags.html">Tags</a></li><li><a href="/sanjeevonline/archive.html">Archive</a></li><li><a href="/sanjeevonline/about-me.html">About me</a></li></ul></div></div></div></div><article class="post shadow"><h1>Code and stuff!</h1><a href="/sanjeevonline/archive.html" class="back">October 01</a><p>By &nbsp;<span class="author">The Wintersmith</span></p><br><section class="content"><p>Syntax highlighting with highlight.js</p>
+<h3>JavaScript</h3>
+<pre><code class="lang-javascript"><span class="function"><span class="keyword">function</span> <span class="title">factorial</span><span class="params">(n)</span> {</span>
+  <span class="keyword">if</span> (n === <span class="number">0</span>) {
+    <span class="keyword">return</span> <span class="number">1</span>;
+  }
+  <span class="keyword">return</span> n * factorial(n - <span class="number">1</span>);
+}</code></pre>
+<h2>More samples</h2>
+<p>Taken from <a href="https://en.wikipedia.org/wiki/Hello_world_program_examples">wikipedia</a>.</p>
+<h3>C</h3>
+<pre><code class="lang-c">#include &lt;stdio.h&gt;
+
+int main(void)
+{
+  printf(&quot;Hello world\n&quot;);
+  return 0;
+}</code></pre>
+<h3>C++</h3>
+<pre><code class="lang-cpp"><span class="preprocessor">#include &lt;iostream></span>
+
+<span class="keyword">int</span> main()
+{
+  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; <span class="built_in">std</span>::endl;
+  <span class="keyword">return</span> <span class="number">0</span>;
+}</code></pre>
+<h3>C-sharp</h3>
+<pre><code class="lang-csharp">class ExampleClass
+{
+    static void Main()
+    {
+        System.Console.WriteLine(&quot;Hello, world!&quot;);
+    }
+}</code></pre>
+<h3>COBOL</h3>
+<pre><code class="lang-cobol">       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO-WORLD.
+       PROCEDURE DIVISION.
+           DISPLAY &#39;Hello, world&#39;.
+           STOP RUN.</code></pre>
+<h3>Erlang</h3>
+<pre><code class="lang-erlang">io:format(<span class="string">"~s~n"</span>, [<span class="string">"hello, world"</span>])</code></pre>
+<h3>Go</h3>
+<pre><code class="lang-go"><span class="keyword">package</span> main
+
+<span class="keyword">import</span> <span class="string">"fmt"</span>
+
+<span class="keyword">func</span> main() {
+   fmt.Println(<span class="string">"Hello World!"</span>)
+}</code></pre>
+<h3>Java</h3>
+<pre><code class="lang-java"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> {</span>
+   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main(String[] args) {
+       System.out.println(<span class="string">"Hello world!"</span>);
+   }
+}</code></pre>
+<h3>ObjectiveC</h3>
+<pre><code class="lang-objc">#import &lt;stdio.h&gt;
+
+int main(void)
+{
+    printf(&quot;Hello, World!\n&quot;);
+    return 0;
+}</code></pre>
+<h3>PHP</h3>
+<pre><code class="lang-php"><span class="preprocessor">&lt;?php</span> <span class="keyword">echo</span> <span class="string">'Hello, world'</span>; <span class="preprocessor">?></span></code></pre>
+<h3>Python</h3>
+<pre><code class="lang-python"><span class="keyword">print</span>(<span class="string">"Hello World"</span>)</code></pre>
+<h3>Ruby</h3>
+<pre><code class="lang-ruby"><span class="identifier"><span class="keymethods">puts</span></span> <span class="string">"Hello world!"</span></code></pre>
+</section><a href="/sanjeevonline/blog.html" class="back"><< back to index</a><div id="disqus_thread"></div></article><hr /><footer><p>put together by: <a href="/">sanjeev</a></p></footer></div><!--le javascript--><!--script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js')--><!--script(src= '#{locals.baseUrl}' + '/assets/javascript/jquery-twitter-plugin.js')--><script src="/sanjeevonline/assets/javascript/jquery.min.js"></script><script src="/sanjeevonline/assets/javascript/app.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-transition.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-alert.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-modal.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-dropdown.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-scrollspy.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-tab.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-tooltip.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-popover.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-button.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-collapse.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-carousel.js"></script><script src="/sanjeevonline/assets/bootstrap/js/bootstrap-typeahead.js"></script></body></html>
