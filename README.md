@@ -11,7 +11,7 @@ browse to `localhost:8080` and start editing
 
 ## when done editing
 
-`sanjeevonline build` to get the output to `./build/`
+`wintersmith build` to get the output to `./build/`
 
 ## thanks
 <a target="_new" href="https://twitter.com/sandee_sh" class="twitter-follow-button" data-show-count="false">Follow me @artem82</a>
