@@ -1,7 +1,7 @@
 ---
 title: Code and stuff!
 author: The Wintersmith
-date: 2013-30-04 15:00
+date: 2013-04-30 15:00
 template: article.jade
 tags: all
 menu:
