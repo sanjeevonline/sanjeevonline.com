@@ -55,7 +55,9 @@ block content
   - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
   -   // sort them by date
   -   return -item.date
-  - }).filter(function(item) { return item.metadata.tags.split(',').indexOf(page.title) != -1 }).value() // and finally take the first 5
+  - }).filter(function(item) {
+  -    return item.metadata.tags.split(',').indexOf(page.title) != -1
+  - }).value()
   - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   each article in articles
     article.post.shadow
@@ -71,4 +73,4 @@ block content
             p.read-more
                 a(href=locals.baseUrl + article.url) read more
   br
-  a(href=locals.baseUrl + 'archive.html')#archive Visit the archives!
+  a(href=locals.baseUrl + '/archive.html')#archive Visit the archives!
