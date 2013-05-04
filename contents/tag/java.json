@@ -3,7 +3,7 @@
     "title": "java",
     "cssClass": "java",
     "description": "java",
-    "template": "tags.jade",
+    "template": "tag.jade",
     "menu":
         {
           "title": "Java",

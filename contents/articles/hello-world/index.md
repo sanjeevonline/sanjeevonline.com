@@ -1,14 +1,15 @@
 ---
-title: Hello World
-author: sanjeev
-date: 2012-01-31 15:00
 template: article.jade
-tags: all
+title: Banana Python
+date: 2007-01-08 15:00
+author: Sanjeev Kumar
+aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
+categories: [Programming, Travel, Photography]
+tags: ['java', 'python']
 menu:
-  title: Hello World
+  title: A red herring
   order: 6
 ---
-
 Welcome to your new wintersmith site mortal.
 
 This is an example of how you can set up a blog with RSS, and an archive using Wintersmith.

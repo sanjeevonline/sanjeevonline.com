@@ -1,11 +1,13 @@
 ---
-title: sanjeev
-author: sanjeev
-date: 2013-04-15 12:20
 template: article.jade
-tags: all,java
+title: Code & Stuff
+date: 2007-01-08 15:00
+author: sanjeev kumar
+aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
+categories: [Programming, Travel, Photography]
+tags: ['java']
 menu:
-  title: Sanjeev
+  title: A red herring
   order: 6
 ---
 
