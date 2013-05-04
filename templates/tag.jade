@@ -1,0 +1,99 @@
+extends layout
+
+block content
+    .row-fluid
+         .span9
+              .page-header
+                    h3 Tag: #{page.metadata.title}
+              - var articles = _.chain(contents.articles._.directories).map(function(item) {
+              -   // map articles to index pages of subdirectories of 'articles'
+              -   return item.index
+              - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+              -   // sort them by date
+              -   return -item.date
+              - }).value() // and get all
+
+              - var tags = []
+              - function compressArray(original) {
+              -	    var compressed = []
+              -	    // make a copy of the input array
+              -	    var copy = original.slice(0)
+              -	    // first loop goes over every element
+              -	    for (var i = 0; i < original.length; i++) {
+              -		    var myCount = 0
+              -		    // loop over every element in the copy and see if it's the same
+              -		    for (var w = 0; w < copy.length; w++) {
+              -		    	if (original[i] == copy[w]) {
+              -			    	// increase amount of times duplicate is found
+              -				    myCount++;
+              - 				// sets item to undefined
+              -	    			delete copy[w];
+              -		    	}
+              -		    }
+              - 		if (myCount > 0) {
+              -	    		var a = new Object();
+              -		    	a.value = original[i];
+              -			    a.count = myCount;
+              - 			compressed.push(a);
+              -	    	}
+              -	    }
+              -	    return compressed;
+              - };
+
+              - each article in articles
+                 - tags.push.apply(tags, article.metadata.tags)
+              - var tagsarray = compressArray(tags)
+              include author
+              //- underscore helps us filter and sort our articles
+              - var articles = _.chain(contents.articles._.directories).map(function(item) {
+              -   // map articles to index pages of subdirectories of 'articles'
+              -   return item.index
+              - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+              -   // sort them by date
+              -   return -item.date
+              - }).filter(function(item) {
+              -    return item.metadata.tags.indexOf(page.title) != -1
+              - }).value()
+              - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+              table.table.table-striped
+                   tbody
+                      each article in articles
+                          tr
+                              td(style="width: 20%")
+                                span
+                                  | #{ map[article.date.getMonth()] } #{ article.date.toString().substring(8, 10) }
+                              td
+                                a(href=article.url)= article.title
+              each article in articles
+                article.post.shadow
+                  header
+                    h2
+                      a(href=locals.baseUrl + article.url)= article.title
+                    a.back(href=locals.baseUrl + '/archive.html') #{ map[article.date.getMonth()] } #{ article.date.toString().substring(8, 10) }
+                    p
+                      | By &nbsp;
+                      mixin author(article.metadata.author)
+                  section.content!= article.intro
+                    if article.hasMore
+                        p.read-more
+                            a(href=locals.baseUrl + article.url) read more
+              br
+         .span3
+           .well.sidebar-nav
+             ul.nav.nav-list
+               h4 Suivez moi !
+               a(target="_blank", style="cursor: pointer;", href=locals.feeds.feed): img(alt="Feed", title="Feed", src="/images/rss.png")
+               a(href="http://www.twitter.com/obazoud", style="cursor: pointer;", target="_blank"): img(src="/images/twitter.png", title="Follow me on Twitter!", alt="Follow @obazoud on Twitter!")
+               a(href="https://plus.google.com/108456051643223740688", target="_blank", alt="Google +", title="Google +"): img(src="/images/google-plus-48x48.png", border="0")
+               h4 Spring Batch in Action
+               a(href="http://affiliate.manning.com/idevaffiliate.php?id=1178_267_1_68", target="_blank", alt="String Batch in Action", title="String Batch in Action"): img(border="0", src="/images/SpringBatchInAction.jpg", alt="String Batch in Action", title="String Batch in Action")
+               h4 Tags
+               include partials/tagcloud
+               h4 Archives
+               include partials/archivecloud
+               h4 Blogroll
+               include partials/blogroll
+               h4 Feeds
+               a(target="_blank", style="cursor:pointer;", href=locals.feeds.feed): img(alt="Feed", title="Feed", src="/images/rss.png")
+               a(target="_blank", style="cursor:pointer;", href=locals.feeds.comments): img(alt="Comments Feed", title="Comments Feed", src="/images/rss.png")
+  a(href=locals.baseUrl + '/archive.html')#archive Visit the archives!
