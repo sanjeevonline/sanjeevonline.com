@@ -4,7 +4,7 @@ block content
     .row-fluid
          .span9
               .page-header
-                    h3 Tag: #{page.metadata.title}
+                    h3 Tag: #{page.metadata.currentTag}
               - var articles = _.chain(contents.articles._.directories).map(function(item) {
               -   // map articles to index pages of subdirectories of 'articles'
               -   return item.index
@@ -52,7 +52,7 @@ block content
               -   // sort them by date
               -   return -item.date
               - }).filter(function(item) {
-              -    return item.metadata.tags.indexOf(page.title) != -1
+              -    return item.metadata.tags.indexOf(page.metadata.currentTag) != -1
               - }).value()
               - var map = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
               table.table.table-striped
@@ -94,6 +94,6 @@ block content
                h4 Blogroll
                include partials/blogroll
                h4 Feeds
-               a(target="_blank", style="cursor:pointer;", href=locals.feeds.feed): img(alt="Feed", title="Feed", src="/images/rss.png")
-               a(target="_blank", style="cursor:pointer;", href=locals.feeds.comments): img(alt="Comments Feed", title="Comments Feed", src="/images/rss.png")
+               a(target="_blank", style="cursor:pointer;", href=locals.feeds.feed): img(alt="Feed", title="Feed", src=locals.baseUrl + "/assets/images/rss.png")
+               a(target="_blank", style="cursor:pointer;", href=locals.feeds.comments): img(alt="Comments Feed", title="Comments Feed", src=locals.baseUrl + "/assets/images/rss.png")
   a(href=locals.baseUrl + '/archive.html')#archive Visit the archives!
