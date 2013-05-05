@@ -1,0 +1,8 @@
+{
+  "template": "rss.jade",
+  "filename": "rss.xml",
+    "menu": {
+        "title": "Feed",
+        "order": "4"
+    }
+}

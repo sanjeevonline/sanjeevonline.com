@@ -1,0 +1,8 @@
+{
+  "template": "../sitemap.jade",
+  "filename": "sitemap.xml",
+    "menu": {
+        "title": "Feed",
+        "order": "4"
+    }
+}

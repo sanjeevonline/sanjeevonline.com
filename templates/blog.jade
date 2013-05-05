@@ -22,11 +22,12 @@ block content
     article.post.shadow
       header
         div(style="text-align: center")
-          h1
+          h2
             a(href=locals.baseUrl + article.url)= article.title
           a.back(href=locals.baseUrl + '/archive.html') #{ map[page.date.getMonth()] } #{ page.date.toString().substring(8, 10) }
       section.content!= article.intro
         if article.hasMore
             p.read-more
                 a(href=locals.baseUrl + article.url) read more
+        include partials/blog-footer
   a(href=locals.baseUrl + 'archive.html')#archive Visit the archives!

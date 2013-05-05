@@ -1,5 +1,12 @@
 extends layout
 
+block header
+ div(style="text-align: center")
+     h2#page_heading
+       a(href=locals.baseUrl + '/blog.html') Sanjeev's Blog
+       | &nbsp;- Archives
+     div#page_subtitle
+       | Just about anything and everything
 block content
   != page.html
   - var archive = _.chain(contents.articles._.directories).map(function(item) {
