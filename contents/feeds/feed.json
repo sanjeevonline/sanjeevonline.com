@@ -1,5 +1,5 @@
 {
-  "template": "../feed.jade",
+  "template": "feed.jade",
   "filename": "feed.xml",
     "menu": {
         "title": "Feed",

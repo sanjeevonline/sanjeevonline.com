@@ -1,5 +1,5 @@
 {
-  "template": "../sitemap.jade",
+  "template": "sitemap.jade",
   "filename": "sitemap.xml",
     "menu": {
         "title": "Feed",
