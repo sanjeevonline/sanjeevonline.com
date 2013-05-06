@@ -32,7 +32,7 @@ div.navbar.navbar-fixed-top
                     if (item.metadata.menu.title == "Tags")
                       li.dropdown
                         a.dropdown-toggle(href="#", data-toggle="dropdown") #{item.metadata.menu.title}
-                          b.caret
+                          &nbsp;b.caret
                         ul.dropdown-menu
                             each word in sortedWord
                               li
@@ -51,3 +51,11 @@ div.navbar.navbar-fixed-top
                                 a(href=locals.baseUrl + "/tag/#{word}.html") #{word}
                     else
                       a(href= locals.baseUrl + item.url) #{item.metadata.menu.title}
+      div.nav-collapse.collapse
+          form(id="search-form", class="navbar-search pull-left", action="http://www.google.com/search", method="get")
+            span(class="glass js-search-action"): i
+            input(type="hidden", value="UTF-8", name="ie")
+            input(type="hidden", value="UTF-8", name="oe")
+            input(type="hidden", value=locals.domain, name="domains")
+            input(type="hidden", value=locals.domain, name="sitesearch")
+            input(class="search-query span2", name="q", type="text", placeholder="search")
