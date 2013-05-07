@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/archive.html</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,13 +18,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.sanjeevonline.com/articles/sanjeev/</loc>
+    <loc>http://www.sanjeevonline.com/articles/hello-world2/</loc>
     <lastmod>2007-01-08T09:30:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.sanjeevonline.com/articles/hello-world2/</loc>
+    <loc>http://www.sanjeevonline.com/articles/sanjeev/</loc>
     <lastmod>2007-01-08T09:30:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -37,43 +37,43 @@
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/tag/java</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/tag/python</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/tag/c</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/category/Programming</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/category/Travel</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/category/Photography</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.sanjeevonline.com/archive/2007</loc>
-    <lastmod>2013-05-07T15:12:20.041Z</lastmod>
+    <lastmod>2013-05-07T15:33:24.960Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
