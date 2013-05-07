@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel></channel>
+  <title>SanjeevOnline Blog</title>
+  <atom:link href="http://feeds.feedburner.com/sanjeevonline/feed" rel="self" type="application/rss+xml"></atom:link>
+  <link>http://www.sanjeevonline.com</link>
+  <description>SanjeevOnline Blog</description>
+  <lastBuildDate>2013-05-07T15:12:20.037Z</lastBuildDate>
+  <language>en</language><sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+  <generator uri="https://github.com/jnordberg/wintersmith" version="1.1.1">Wintersmith</generator>
+  <item>
+    <title><![CDATA[Banana Python]]></title>
+    <link>http://www.sanjeevonline.com/articles/hello-world/</link>
+    <comments>http://www.sanjeevonline.com/articles/hello-world/#disqus_thread</comments>
+    <pubDate>2007-01-08T09:30:00.000Z</pubDate>
+    <dc:creator>Sanjeev Kumar</dc:creator>
+    <category><![CDATA[java]]></category>
+    <category><![CDATA[python]]></category>
+    <guid isPermaLink="true">http://www.sanjeevonline.com/articles/hello-world/</guid>
+    <author>Sanjeev Kumar</author>
+    <description><![CDATA[]]></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <wfw:commentRss>[object Object]/articles/hello-world//lastest.rss</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+  </item>
+  <item>
+    <title><![CDATA[Code &amp; Stuff]]></title>
+    <link>http://www.sanjeevonline.com/articles/sanjeev/</link>
+    <comments>http://www.sanjeevonline.com/articles/sanjeev/#disqus_thread</comments>
+    <pubDate>2007-01-08T09:30:00.000Z</pubDate>
+    <dc:creator>sanjeev kumar</dc:creator>
+    <category><![CDATA[java]]></category>
+    <guid isPermaLink="true">http://www.sanjeevonline.com/articles/sanjeev/</guid>
+    <author>sanjeev kumar</author>
+    <description><![CDATA[]]></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <wfw:commentRss>[object Object]/articles/sanjeev//lastest.rss</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+  </item>
+  <item>
+    <title><![CDATA[Banana]]></title>
+    <link>http://www.sanjeevonline.com/articles/hello-world2/</link>
+    <comments>http://www.sanjeevonline.com/articles/hello-world2/#disqus_thread</comments>
+    <pubDate>2007-01-08T09:30:00.000Z</pubDate>
+    <dc:creator>Sanjeev Kumar</dc:creator>
+    <category><![CDATA[java]]></category>
+    <category><![CDATA[c]]></category>
+    <guid isPermaLink="true">http://www.sanjeevonline.com/articles/hello-world2/</guid>
+    <author>Sanjeev Kumar</author>
+    <description><![CDATA[]]></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <wfw:commentRss>[object Object]/articles/hello-world2//lastest.rss</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+  </item>
+  <item>
+    <title><![CDATA[Code &amp; Stuff]]></title>
+    <link>http://www.sanjeevonline.com/articles/sanjeev4/</link>
+    <comments>http://www.sanjeevonline.com/articles/sanjeev4/#disqus_thread</comments>
+    <pubDate>2007-01-08T09:30:00.000Z</pubDate>
+    <dc:creator>sanjeev kumar</dc:creator>
+    <category><![CDATA[java]]></category>
+    <guid isPermaLink="true">http://www.sanjeevonline.com/articles/sanjeev4/</guid>
+    <author>sanjeev kumar</author>
+    <description><![CDATA[]]></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <wfw:commentRss>[object Object]/articles/sanjeev4//lastest.rss</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+  </item>
+</rss>
