@@ -25,9 +25,13 @@ div.navbar.navbar-fixed-top
       div.nav-collapse.collapse
           <!-- .nav, .navbar-search, .navbar-form, etc -->
           ul.nav
-            - var menu_items = _.chain(contents._.pages).sortBy(function(v){return v.metadata.menu.order}).value();
+            - var menu_items = _.chain(contents._.pages).compact().filter(function(article) {
+            -    return article.metadata.menu
+            - }).sortBy(function(v){
+            -    return v.metadata.menu.order
+            - }).value();
               - each item in menu_items
-                - if (page.metadata.menu.title == item.metadata.menu.title)
+                - if (page.metadata.title == item.metadata.title)
                   li.active
                     if (item.metadata.menu.title == "Tags")
                       li.dropdown
@@ -51,11 +55,11 @@ div.navbar.navbar-fixed-top
                                 a(href=locals.baseUrl + "/tag/#{word}.html") #{word}
                     else
                       a(href= locals.baseUrl + item.url) #{item.metadata.menu.title}
-      div.nav-collapse.collapse
+      div(class="pull-right").nav-collapse.collapse
           form(id="search-form", class="navbar-search pull-left", action="http://www.google.com/search", method="get")
             span(class="glass js-search-action"): i
             input(type="hidden", value="UTF-8", name="ie")
             input(type="hidden", value="UTF-8", name="oe")
             input(type="hidden", value=locals.domain, name="domains")
             input(type="hidden", value=locals.domain, name="sitesearch")
-            input(class="search-query span2", name="q", type="text", placeholder="search")
+            input(class="search-query span2", name="q", type="text", placeholder="Search using Google...")

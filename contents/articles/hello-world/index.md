@@ -6,9 +6,6 @@ author: Sanjeev Kumar
 aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
 categories: [Programming, Travel, Photography]
 tags: ['java', 'python']
-menu:
-  title: A red herring
-  order: 6
 ---
 Welcome to your new wintersmith site mortal.
 
