@@ -22,7 +22,7 @@
     <div class="container">
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
-          <div class="container"><a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a href="http://www.sanjeevonline.com" class="brand">The Social Coder</a>
+          <div class="container"><a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a href="http://blog.sanjeevonline.com" class="brand">The Social Coder</a>
             <div class="nav-collapse collapse"><!-- .nav, .navbar-search, .navbar-form, etc -->
               <ul class="nav">
                 <li><a href="/blog.html">Blog</a>
@@ -44,8 +44,8 @@
               <form id="search-form" action="http://www.google.com/search" method="get" class="navbar-search pull-left"><span class="glass js-search-action"><i></i></span>
                 <input type="hidden" value="UTF-8" name="ie">
                 <input type="hidden" value="UTF-8" name="oe">
-                <input type="hidden" value="www.sanjeevonline.com" name="domains">
-                <input type="hidden" value="www.sanjeevonline.com" name="sitesearch">
+                <input type="hidden" value="blog.sanjeevonline.com" name="domains">
+                <input type="hidden" value="blog.sanjeevonline.com" name="sitesearch">
                 <input name="q" type="text" placeholder="Search using Google..." class="search-query span2">
               </form>
             </div>
@@ -106,20 +106,21 @@ I'm an article. Bla bla bla so interesting.</code></pre>
 </section>
         <hr>
         <div id="social_bottom" class="topsocial">
-          <div class="social"><a href="/articles/hello-world2/" data-url="http://www.sanjeevonline.com/articles/hello-world2/" data-text="Banana #java #c /via @sandee_sh" data-count="vertical" class="twitter-share-button">
+          <div class="social"><a href="/articles/hello-world2/" data-url="http://blog.sanjeevonline.com/articles/hello-world2/" data-text="Banana #java #c /via @sandee_sh" data-count="vertical" class="twitter-share-button">
               <twitter-share-button></twitter-share-button></a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
           </div>
-          <div class="social"><g:plusone size="tall" href="http://www.sanjeevonline.com/articles/hello-world2/"></g:plusone></div>
+          <div class="social"><g:plusone size="tall" href="http://blog.sanjeevonline.com/articles/hello-world2/"></g:plusone></div>
           <div class="social">
             <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/Share" data-url="http://www.sanjeevonline.com/articles/hello-world2/.html" data-counter="top"></script>
+            <script type="IN/Share" data-url="http://blog.sanjeevonline.com/articles/hello-world2/" data-counter="top"></script>
           </div>
           <div class="social">
             <div class="share-delicious">
               <div id="delic" class="delicious">0</div>
-              <div id="delicious-b"><a href="http://del.icio.us/post?url=http://www.sanjeevonline.com/articles/hello-world2/&amp;title=&quot;Save To Delicious&quot;" target="blank">delicious</a></div>
+              <div id="delicious-b"><a href="http://del.icio.us/post?url=http://blog.sanjeevonline.com/articles/hello-world2/&amp;title=Banana" target="blank">delicious</a></div>
             </div> <script type='text/javascript'>
              function delic(info) {
+              alert(info);
               if(!info[0]) return;
               var num = info[0].total_posts;
                if(!num) return;
@@ -129,7 +130,7 @@ I'm an article. Bla bla bla so interesting.</code></pre>
                delic.style.paddingRight= '6px';
              }
              </script>
-             <script src='http://badges.del.icio.us/feeds/json/url/data?url=http://www.sanjeevonline.com/articles/hello-world2/'&callback=declic></script>
+             <script src='http://badges.del.icio.us/feeds/json/url/data?url=http://blog.sanjeevonline.com/articles/hello-world2/'&callback=delic></script>
           </div>
         </div><script type="text/javascript">
           (function() {
@@ -138,47 +139,48 @@ I'm an article. Bla bla bla so interesting.</code></pre>
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
           })();
         </script>
-      </article>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript" src="http://disqus.com/forums/dongsa/embed.js"></script>
-      <noscript><a href="http://disqus.com/forums/dongsa/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by<span class="logo-disqus">Disqus</span></a>
-      <script type="text/javascript">
-        (function() {
-          var links = document.getElementsByTagName('a');
-          var query = '?';
-          for(var i = 0; i < links.length; i++) {
-            if(links[i].href.indexOf('#disqus_thread') >= 0) {
-              query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+        <hr>
+        <h3>Similar Articles</h3>
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td><a href="/articles/sanjeev4/" title="c,python">Code &amp; Stuff</a></td>
+            </tr>
+            <tr>
+              <td><a href="/articles/sanjeev/" title="java">Code &amp; Stuff</a></td>
+            </tr>
+            <tr>
+              <td><a href="/articles/hello-world/" title="java,python">Banana Python</a></td>
+            </tr>
+            <tr>
+              <td><a href="/articles/hello-world2/" title="java,c">Banana</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4></h4>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript" src="http://disqus.com/forums/dongsa/embed.js"></script>
+        <noscript><a href="http://disqus.com/forums/dongsa/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by<span class="logo-disqus">Disqus</span></a>
+        <script type="text/javascript">
+          (function() {
+            var links = document.getElementsByTagName('a');
+            var query = '?';
+            for(var i = 0; i < links.length; i++) {
+              if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+              }
             }
-          }
-          document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/dongsa/get_num_replies.js' + query + '"></' + 'script>');
-        })();
-      </script>
-      <hr>
-      <h3>Similar Articles</h3>
-      <h4></h4>
-      <table class="table table-striped">
-        <tbody>
-          <tr>
-            <td><a href="/articles/hello-world/" title="java,python">Banana Python</a></td>
-          </tr>
-          <tr>
-            <td><a href="/articles/hello-world2/" title="java,c">Banana</a></td>
-          </tr>
-          <tr>
-            <td><a href="/articles/sanjeev/" title="java">Code &amp; Stuff</a></td>
-          </tr>
-          <tr>
-            <td><a href="/articles/sanjeev4/" title="c,python">Code &amp; Stuff</a></td>
-          </tr>
-        </tbody>
-      </table><hr />
+            document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/dongsa/get_num_replies.js' + query + '"></' + 'script>');
+          })();
+        </script>
+        <hr>
+      </article><hr />
       <footer class="footer">
         <div style="font-size: 13px" class="inner">
           <p class="pull-right"><a href="#">back to top</a></p>
           <p>
-             
-            Put together by SanjeevOnline Blog - Copyright 2007-2013 - Powered by &nbsp;<a href="http://www.nodejs.org" title="Powered by Node.js" target="_blank">Node.js</a> and<a href="https://github.com/jnordberg/wintersmith" title="Powered by Wintersmith" target="_blank"> Wintersmith </a> - Special thanks to <a href="http://twitter.github.com/bootstrap/" target="_blank" title="Bootstrap, from Twitter">Twitter Bootstrap</a>
+            Posted on Mon Jan 08 2007 15:00:00 GMT+0530 (IST)
+            | Tags :&nbsp;<a href="/tag/java.html" rel="category tag" title="View all posts in 'java'">java</a>&nbsp;<a href="/tag/c.html" rel="category tag" title="View all posts in 'c'">c</a>&nbsp;
           </p>
         </div>
       </footer>
