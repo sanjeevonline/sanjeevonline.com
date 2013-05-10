@@ -27,8 +27,20 @@ block content
       section.content!= page.html
       hr
       include partials/bottom-social
-  include partials/disqus
-  hr
-  h3 Similar Articles
-  h4
-  include partials/related
+      hr
+      h3 Similar Articles
+      include partials/related
+      h4
+      include partials/disqus
+      hr
+        footer.footer
+          div.inner(style="font-size: 13px")
+            block footer
+              p(class="pull-right"): a(href="#") back to top
+              p
+                | Posted on #{page.date}
+                | | Tags :&nbsp;
+                each tag in page.metadata.tags
+                  a(href=locals.baseUrl + "/tag/#{tag}.html", rel="category tag", title="View all posts in '#{tag}'")
+                    = tag
+                  &nbsp;

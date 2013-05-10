@@ -5,7 +5,8 @@ date: 2007-01-08 15:00
 author: sanjeev kumar
 aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
 categories: [Programming, Travel, Photography]
-tags: ['java']
+tags: ['c', 'python']
+excerpt: this a sample excerpt for post with title Code & Stuff tagged with ['c', 'python']
 ---
 
 A long time ago, when the world was young

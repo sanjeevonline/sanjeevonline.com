@@ -6,6 +6,7 @@ author: Sanjeev Kumar
 aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
 categories: [Programming, Travel, Photography]
 tags: ['java', 'c']
+excerpt: this a sample excerpt for post with title Banana tagged with ['java', 'c']
 ---
 Welcome to your new wintersmith site mortal.
 

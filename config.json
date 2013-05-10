@@ -1,7 +1,7 @@
 {
     "locals": {
-        "url": "http://www.sanjeevonline.com",
-        "domain": "www.sanjeevonline.com",
+        "url": "http://blog.sanjeevonline.com",
+        "domain": "blog.sanjeevonline.com",
         "baseUrl": "",
         "name": "SanjeevOnline Blog",
         "owner": "Sanjeev Kumar",
